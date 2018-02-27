@@ -1,7 +1,7 @@
 
 body
 {
-    background-color:rgba(0,0,0,0.5);
+    background-color:#424242;
 }
 
 
@@ -10,7 +10,7 @@ body
     color:white;
     font-family: sans-serif;
     font-size: 40px;
-    background-color: rgba(0,0,0,0.7);
+    background-color: #313335;
     padding-left: 40px;
     padding-top: 20px;
     height: 60px;
@@ -21,11 +21,14 @@ body
 
 
 
-p, h2,h3
+p
 {
  color: white;
    text-align: center;
-    font-family: sans-serif;
+   font-family: sans-serif;
+   font-size: 18px;
+   margin-bottom: 10px;
+   margin-top: 10px;
 }
 input[type=text] ,input[type=email],input[type=password]{
     width:90%;
@@ -60,5 +63,16 @@ form {
 margin: 0 auto; 
 width:250px;
     
+}
+.Rounded {
+     border-radius:10px 10px 10px 10px; 
+     padding:10px; padding:1px;
+}
+.agreement
+{
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 12px;
 }
 
