@@ -1,20 +1,56 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
+
 <html>
-   
- <head>
+   <head>
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
     <title> Linkedin webpage </title>
-    <link rel="stylesheet"  type="text/css" href="C:\Users\Srishti Kotnis\Documents\linkstyle.css">
+    <link rel="stylesheet"  type="text/css" href="linkstyle.css">
+       
     <style>
-        .div{
-            background-color: deepskyblue;
+        @media screen and (max-width: 699px) and (min-width: 520px)
+        {
+            body_1{
+                width:auto;
+                height: auto;
+            }
         }
+    </style>
+    
  </head>
  <body>
-     <h1>Linked<div>in</div></h1>
-     <h2> Join to view full profiles for free</h2>
+     <div class="header1"><b>Linked<span style="background-color: blue">in</span></b></h1>
+     </div>
+<div class="body_1">
+     
+      <p> Join to view full profiles for free</p>
     
+ 
+   <form action="/action_page.php">
+     <div class ="input">
+    <input type="text" id="fname" name="firstname" placeholder="First name"><br>
+    <input type="text" id="lname" name="lastname" placeholder="Last name"><br>
+    <input type="email" name="email" placeholder= "Email"><br>
+    <input type="password" name="password" placeholder="Password(6 or more characters)"><br>
+   </div>
+   
+   
     
+   
     
-     <h5> By clicking Join now, you agree to the LinkedIn User Agreement, Privacy Policy, and Cookie Policy.</h5>
+    <p> By clicking Join now, you agree to the LinkedIn <strong>User Agreement, Privacy Policy</strong>, and <strong>Cookie Policy.</strong>
+    </p>
+    
+     <p>
+         <input type="submit" value="Join now"><br>
+       </p>
+    <p>  
+       Already have an account?<strong> Sign in </strong>
+    </p>
+     </form>
+     </div>
+       
+   
+     
  </body>
 </html>
